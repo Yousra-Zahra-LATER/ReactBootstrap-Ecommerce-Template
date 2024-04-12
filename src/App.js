@@ -1,5 +1,6 @@
 
 import './App.css';
+import Footer from './component/Footer/Footer';
 import Home from './component/Home/Home';
 import NAV from './component/Nav/Nav';
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
      <NAV/> 
      <Home/>
+     <Footer/>
     </div>
   );
 }

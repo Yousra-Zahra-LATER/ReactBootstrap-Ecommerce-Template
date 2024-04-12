@@ -1,4 +1,27 @@
-container{
+.sectionNumber {
     background-color: #7c0f28;
-    padding: 25pc 0;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+  
+  }
+
+.sectionNumber .row{
+    margin: 10px 0px;
+}
+  .sectionNumber h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #fff;
+    font-family: 'Tajawal' ;
+}
+.sectionNumber h6{
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Tajawal' ;
+  font-weight: bold;
+  letter-spacing: 1px ;
 }

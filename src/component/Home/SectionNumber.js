@@ -5,8 +5,9 @@ import Col from 'react-bootstrap/Col';
 import './SectionNumber.css';
 export default function () {
   return (
-    <Container className="container">
-      <Row>
+    <Container className="about" >
+      <Row >
+        
         <Col>
         <h2>1287+</h2>
         <h6>SAVINGS</h6>
@@ -17,14 +18,7 @@ export default function () {
         <h6>PHOTOS</h6>
         </Col>
 
-        <Col>
-        <h2>1440+</h2>
-        <h6>ROCKETS</h6>
-        </Col>
-        <Col>
-        <h2>7110+</h2>
-        <h6>GLOBES</h6>
-        </Col>
+      
       </Row>
     </Container>
    
