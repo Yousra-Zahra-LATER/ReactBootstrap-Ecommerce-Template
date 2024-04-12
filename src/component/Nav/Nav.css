@@ -1,26 +1,28 @@
 nav{
-background-color: rgb(181, 213, 242);    
+background-color: rgb(246, 235, 235);    
 width: 100%;
 height: auto;
 max-width: 100%;
 border-radius: 0px;
 }
 nav a{
-    color: rgb(8, 9, 70) !important;
+    color: rgb(0, 0, 14) !important;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
 
 }
 nav #phone{
-    background-color: rgb(215, 221, 240);
-    border:1px solid rgb(8, 9, 70);
+    background-color:#7A9D54;
+    border:3px solid #7A9D54;
     box-sizing: border-box;
+    color:#ffffff !important;
+
 }
 
 nav #phone:hover{
     background-color: transparent;
-    color: rgb(181, 213, 242);
+    color: rgb(0, 0, 14)  !important;
     transition: .2s ease-in-out;
 }
 nav img{
