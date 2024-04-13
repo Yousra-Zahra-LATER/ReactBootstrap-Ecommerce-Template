@@ -9,7 +9,7 @@ export default function NAV() {
         <Navbar expand="lg" >
           <Container>
             <Navbar.Brand href="#home">
-              <img src="{}" title='logo' alt='logo'/>
+              <img src={logo} title='logo' alt='logo'/>
               </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

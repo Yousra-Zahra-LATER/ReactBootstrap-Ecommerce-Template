@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import './SectionNumber.css';
 export default function () {
   return (
+    
     <Container className="sectionNumber" fluid='true'>
       <Row >
         <Col md={3}>
