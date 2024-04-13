@@ -15,7 +15,7 @@ export default function Header() {
             <button>order now</button>
             <button>learn more</button>
           </Col>
-          <Col md={6}></Col>
+          
         </Row>
       </Container>
     </header>
