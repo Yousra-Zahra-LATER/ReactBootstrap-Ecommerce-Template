@@ -1,6 +1,5 @@
-import blog1 from "./assets/1.jpg";
-import blog2 from "./assets/2.jpg";
-import blog3 from "./assets/3.jpg";
+import blog1 from "./../../assets/1.jpg";
+import blog2 from "./../../assets/2.jpg";
 
 const Data=[
 {
@@ -20,7 +19,7 @@ const Data=[
    },
 
 {
-    img : blog3,
+    img : blog1,
     title:"Raspberry Stuffed French Toast",
     time: '20 - 25 Minutes',
     price:'12.50$'

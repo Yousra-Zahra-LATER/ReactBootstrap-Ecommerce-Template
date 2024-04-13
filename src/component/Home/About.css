@@ -41,7 +41,7 @@
  
 }
 
-.about button, .ingredients button{
+.about button, .ingredients button, .blog button {
     background-color:#7c0f28 ;
     border: 2px solid #7c0f28;
     box-sizing: border-box;
@@ -52,7 +52,7 @@
     margin-top: 20px;
 }
 
-.about button a, .ingredients button a{
+.about button a, .ingredients button a, .blog button a {
     display: block;
     color: #fff;
     font-family: 'Tajawal';
@@ -62,10 +62,10 @@
 
 }
 
-.about button:hover a, .ingredients button:hover a{
+.about button:hover a, .ingredients button:hover a, .blog button:hover a{
     color: #7c0f28;
 }
-.about button:hover, .ingredients button:hover{
+.about button:hover, .ingredients button:hover, .blog button:hover{
     background-color: #fff;
    
 }
@@ -92,4 +92,76 @@
     color: #7c0f28;
     text-decoration: none !important;
 
+}
+.blog{
+    margin-top:50px ;
+    padding: 90px 50px;
+    overflow: hidden;
+    width:100%;
+    height: auto;
+}
+
+.blog .row:first-child{
+    text-align: center;
+    margin: 25px 0px;
+}
+ 
+
+.blog h2{
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    margin:20px 0px ;
+    color: #3f0815;
+    font-family: 'Tajawal';
+    line-height: 38px;
+ 
+}
+.blog img {
+    max-width:100%;
+    border-radius: 15px;
+
+  }
+
+.blog p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #040001a8;
+    font-family: 'Poppins';
+    margin-top: 30px;
+}
+
+.blog .box {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    margin-top: 10px ;
+    border-radius: 5px;
+}
+
+.blog .box h5{
+    color:#7c0f28;
+    font-family: 'Tajawal';
+    font-size: 22px;
+    margin: 15px 0px;
+
+}
+
+.blog .box span {
+    display: block;
+    color:#444;
+    font-family: 'Tajawal';
+    font-size: 16px;
+    margin:10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.blog .box h6{
+    color:#7c0f28;
+    font-size: 25px;
+    font-family: 'Tajawal';
 }

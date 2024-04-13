@@ -7,7 +7,26 @@ import aboutt from '../../assets/aboutt.png';
 import "./About.css";
 import { faCheck, faPlay } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Data from './Data';
 export default function About() {
+
+  const blogitem=Data.map((item)=>{
+    return(
+   
+        <Col md={3}>
+          <div className='box'>
+        <img src={item.img}/>
+        <h5>{item.title}</h5>
+        <span>{item.price}</span>
+        <h6>{item.time}</h6>
+        </div>
+        <button><a href='#'> order now </a></button>
+        </Col>
+    
+    )
+  
+})
+ 
   return (
     <Fragment>
      <section className="about">
@@ -64,7 +83,7 @@ export default function About() {
 
       <section className="blog" >
           <Container>
-          <Row>
+          <Row className="row">
           <Col md={12}>
             <h2>Explore Our Foods </h2>
             <p>
@@ -73,18 +92,13 @@ export default function About() {
             tellus. Far far away, behind the word mountains, far from the 
             countries Vokalia and Consonantia, there live the blind texts.
              Separated they live in Bookmarksgrove.
-
-            </p>
-             
+            </p> 
           </Col>
         </Row>
+            <Row className="justify-content-md-center">
+                 {blogitem}
+            </Row>
             </Container>
-           <row>
-            <col md={4}>
-            
-            </col>
-            </row>
-           
       </section>
 
 
