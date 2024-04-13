@@ -79,12 +79,12 @@ export default function About() {
           </Col>
         </Row>
             </Container>
-
+           <row>
             <col md={4}>
             
-            
-            
             </col>
+            </row>
+           
       </section>
 
 
