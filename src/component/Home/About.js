@@ -1,20 +1,62 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import beef from '../../assets/beef.jpg';
+import aboutt from '../../assets/aboutt.png';
 import "./About.css";
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function About() {
   return (
-    <Container className="about" >
-      <Row>
-        <Col md={6} ><img src={beef} title="about" alt='About' /></Col>
-        <Col md={6} className="tol">
-        <h2>We pride ourselves on making real food from the best ingredients.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
-        <button > <a href="#">Learn More </a> </button>
-        </Col>
-      </Row>   
-    </Container>
+    <Fragment>
+     <section className="about">
+            <Container  >
+              <Row className="justify-content-md-center">
+                <Col  md={4} ><img src={beef} title="about" alt='About' /></Col>
+                <Col md={6} >
+                <h2>We pride ourselves on making real food from the best ingredients.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+                <button > <a href="#">Learn More </a> </button>
+                </Col>
+              </Row>   
+            </Container>
+    </section>
+
+
+    <section className="ingredients" >
+          <Container >
+              <Row className="justify-content-md-center">
+                <Col md={4} >
+                <h2>We make everything by hand with the best possible ingredients.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  <ul>
+                    <li> <FontAwesomeIcon icon={faCheck} size="1x" color="#860A35" />  Etiam sed dolor ac diam volutpat.</li>
+                    <li><FontAwesomeIcon icon={faCheck} size="1x" color="#860A35" />  Erat volutpat aliquet imperdiet.</li>
+                    <li><FontAwesomeIcon icon={faCheck} size="1x" color="#860A35" />  purus a odio finibus bibendum.</li>
+                    </ul>
+              
+                <button > <a href="#">Learn More </a> </button>
+                </Col>
+                <Col md={6}><img src={aboutt} title="about" alt='About' /></Col>
+              </Row>   
+            </Container>
+      </section>
+      
+      
+      <section className="paralex" >
+          <Container>
+          <Row>
+          <Col md={12}>
+            <h2>Good food choices are good investments.</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+            </p>
+              <a href='#'> Watch Our Story</a>
+          </Col>
+        </Row>
+            </Container>
+      </section>
+      </Fragment>
   )
 }

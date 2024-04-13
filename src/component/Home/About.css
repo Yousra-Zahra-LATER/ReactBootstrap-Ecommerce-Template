@@ -1,65 +1,82 @@
-.about{
+.about, .ingredients{
     background-color: transparent;
     padding: 40px 0px;
     max-width: 100%;
     height: auto;
     overflow: hidden;
-    margin-top: 70px;
+    margin-top: 50px;
     text-align: left;
   }
-
-.about img {
-    max-width: 100%;
+.ingredients ul li{
+    margin-left: -32px;
+    list-style-type:none ;  
+    color: #040001a8;
+    font-family: 'Poppins';
+    margin-top: 10px;
+  }
+.about img , .ingredients img{
+    max-width:100%;
     border-radius: 10px;
-    margin-left: 95px ;
-    
-
+   
   }
 
-.about h2{
-    font-size: 35px;
+.about h2, .ingredients h2{
+    font-size: 32px;
     font-weight: bold;
-    margin-top: 70px;
-    margin-left: 100px ;
+    width: 80%;
+    margin:20px 0px ;
     color: #3f0815;
-    width: 65%;
-    line-height: 50px;
-}
-
-.about p{
-    font-size: 16px;
-    line-height: 28px;
-    margin-left: 100px ;
-    color: #040001ce;
-    margin-top: 10px;
+    font-family: 'Tajawal';
+    line-height: 38px;
+ 
     
 }
 
-.about button{
+.about p, .ingredients p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #040001a8;
+    font-family: 'Poppins';
+    margin-top: 30px;
+ 
+}
+
+.about button, .ingredients button{
     background-color:#7c0f28 ;
     border: 2px solid #7c0f28;
     box-sizing: border-box;
     width: 140px;
     height: 40px;
     text-align: center;
-    margin-top: 10px;
     transition: .2s ease;
-    margin-left: 100px ;
+    margin-top: 20px;
 }
 
-.about button a{
+.about button a, .ingredients button a{
     display: block;
     color: #fff;
+    font-family: 'Tajawal';
     text-decoration: none !important;
     font-weight: bold;
-    font-size: 14px;
+    text-transform: uppercase;
+
 }
 
-.about button:hover a{
+.about button:hover a, .ingredients button:hover a{
     color: #7c0f28;
 }
-.about button:hover{
+.about button:hover, .ingredients button:hover{
     background-color: #fff;
    
 }
 
+.paralex{
+    background: url("../../assets/header.jpg") center no-repeat;
+    background-size:cover;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 100px 0;
+    margin-top: 0px;
+}
