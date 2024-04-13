@@ -60,6 +60,34 @@ export default function About() {
         </Row>
             </Container>
       </section>
+
+
+      <section className="blog" >
+          <Container>
+          <Row>
+          <Col md={12}>
+            <h2>Explore Our Foods </h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et 
+            purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat 
+            tellus. Far far away, behind the word mountains, far from the 
+            countries Vokalia and Consonantia, there live the blind texts.
+             Separated they live in Bookmarksgrove.
+
+            </p>
+             
+          </Col>
+        </Row>
+            </Container>
+
+            <col md={4}>
+            
+            
+            
+            </col>
+      </section>
+
+
       </Fragment>
   )
 }
