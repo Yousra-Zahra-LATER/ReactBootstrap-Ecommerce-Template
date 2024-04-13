@@ -20,7 +20,7 @@
    
   }
 
-.about h2, .ingredients h2{
+.about h2, .ingredients h2, .paralex h2{
     font-size: 32px;
     font-weight: bold;
     width: 80%;
@@ -32,7 +32,7 @@
     
 }
 
-.about p, .ingredients p {
+.about p, .ingredients p, .paralex p {
     font-size: 16px;
     line-height: 28px;
     color: #040001a8;
@@ -71,12 +71,25 @@
 }
 
 .paralex{
-    background: url("../../assets/header.jpg") center no-repeat;
+    background: url("../../assets/header1.jpg") center no-repeat;
     background-size:cover;
+    padding: 80px 0;
+    margin-top: 10px;
+
+}
+
+.paralex h2{
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
-    padding: 100px 0;
-    margin-top: 0px;
+    font-size: 35px;
+}
+.paralex p{
+    font-size: 13px;
+}
+.paralex a {
+    font-size: 17px;
+    margin:20px 0px;
+    font-family: 'Tajawal';
+    color: #7c0f28;
+    text-decoration: none !important;
+
 }
