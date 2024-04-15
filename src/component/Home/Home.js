@@ -3,7 +3,7 @@ import Header from './Header'
 import SectionNumber from './SectionNumber'
 import About from './About'
 import DarkVariantExample from './Carsousels'
-import Footer from './../Footer/Footer'
+
 export default function Home() {
   return (
     <Fragment> 
@@ -11,7 +11,7 @@ export default function Home() {
      <SectionNumber/> 
      <About/>
      <DarkVariantExample/>
-      <Footer/>
+     
      </Fragment>
   )
 }
