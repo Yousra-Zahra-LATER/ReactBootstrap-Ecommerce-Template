@@ -6,7 +6,7 @@ import './Nav.css';
 import logo from '../../assets/logo1.jpg';
 export default function NAV() {
     return (
-        <Navbar expand="lg" >
+        <Navbar expand="lg" className=" sticky-top shadow " >
           <Container>
             <Navbar.Brand href="#home">
               <img src={logo} title='logo' alt='logo'/>
