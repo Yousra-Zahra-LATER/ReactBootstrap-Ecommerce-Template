@@ -58,7 +58,8 @@
     font-family: 'Tajawal';
     text-decoration: none !important;
     font-weight: bold;
-    text-transform: uppercase;
+    font-size: 18px;
+    /*text-transform: uppercase;*/
 
 }
 

@@ -12,8 +12,8 @@ export default function Header() {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
             </p>
-            <button>order now</button>
-            <button>learn more</button>
+            <button> Order Now</button>
+            <button>Learn More</button>
           </Col>
           
         </Row>

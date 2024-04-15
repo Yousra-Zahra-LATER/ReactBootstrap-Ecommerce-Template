@@ -13,14 +13,14 @@ export default function About() {
   const blogitem=Data.map((item)=>{
     return(
    
-        <Col md={3}>
+        <Col md={4}>
           <div className='box'>
         <img src={item.img}/>
         <h5>{item.title}</h5>
         <span>{item.price}</span>
         <h6>{item.time}</h6>
         </div>
-        <button><a href='#'> order now </a></button>
+        <button><a href='#'> Order Now </a></button>
         </Col>
     
     )

@@ -5,7 +5,7 @@ header{
     max-width: 100%;
     text-align: left;
     overflow: hidden;
-    padding: 90px 0;
+    padding: 130px 0;
     margin-top: 0px;
 }
 header .row{
@@ -13,7 +13,7 @@ header .row{
 }
 header h2{
     color:#7c0f28;
-    font-size: 55px;
+    font-size: 50px;
     line-height: 60px;
     font-family: 'Tajawal',sans-serif; 
     font-size: bold;
@@ -38,7 +38,7 @@ header Button{
     color: #fff;
     margin: 20px 10px 20px 0px;
     font-weight: bold;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 header Button:hover{
     transition: .2s ease-in-out;
