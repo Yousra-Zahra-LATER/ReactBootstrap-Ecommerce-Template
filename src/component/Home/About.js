@@ -41,8 +41,8 @@ export default function About() {
               </Row>   
             </Container>
     </section>
-
-
+   
+    <div className='space100'></div>
     <section className="ingredients" >
           <Container >
               <Row className="justify-content-md-center">
