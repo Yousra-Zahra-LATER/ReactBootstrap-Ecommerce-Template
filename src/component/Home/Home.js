@@ -10,7 +10,7 @@ export default function Home() {
      <Header/>
      <SectionNumber/> 
      <About/>
-     <DarkVariantExample/>
+     
      
      </Fragment>
   )

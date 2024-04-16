@@ -13,7 +13,7 @@ function DarkVariantExample() {
     <Carousel >
       <Carousel.Item>
         <img
-          src={item1}
+          src=''
           alt="First slide"
         />
         <Carousel.Caption>
@@ -27,7 +27,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           
-          src={item1}
+          src=''
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -43,7 +43,7 @@ function DarkVariantExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={item1}
+          src=''
           alt="Third slide"
         />
         <Carousel.Caption>
