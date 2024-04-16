@@ -29,7 +29,7 @@ export default function Footer() {
         </Row>
         <Row>
           <Col>
-            <p className="text-center mt-5">&copy; {new Date().getFullYear()} Infinity. All rights reserved.</p>
+            <p className="text-center mt-4">&copy; {new Date().getFullYear()} Infinity. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
