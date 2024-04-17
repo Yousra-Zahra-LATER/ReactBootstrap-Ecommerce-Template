@@ -13,7 +13,7 @@ export default function About() {
   const blogitem=Data.map((item)=>{
     return(
    
-        <Col md={4}>
+        <Col md={3}>
           <div className='box'>
         <img src={item.img}/>
         <h5>{item.title}</h5>
@@ -83,8 +83,9 @@ export default function About() {
 
       <section className="blog" >
           <Container>
-          <Row className="row">
-          <Col md={12}>
+    
+          <Row className="row justify-content-center">
+          <Col md={10}>
             <h2>Explore Our Foods </h2>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et 
@@ -95,7 +96,7 @@ export default function About() {
             </p> 
           </Col>
         </Row>
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-center">
                  {blogitem}
             </Row>
             </Container>

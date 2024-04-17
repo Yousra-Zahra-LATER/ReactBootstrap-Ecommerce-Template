@@ -97,7 +97,6 @@
 
 }
 .blog{
-    margin-top:50px ;
     padding: 90px 50px;
     overflow: hidden;
     width:100%;
@@ -114,7 +113,6 @@
     font-size: 30px;
     font-weight: bold;
     width: 100%;
-    margin:20px 0px ;
     color: #3f0815;
     font-family: 'Tajawal';
     line-height: 38px;
