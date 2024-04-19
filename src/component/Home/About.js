@@ -82,9 +82,9 @@ export default function About() {
 
 
       <section className="blog" >
-          <Container>
+          <Container >
     
-          <Row className="row justify-content-center">
+          <Row className="row justify-content-center mt-0">
           <Col md={10}>
             <h2>Explore Our Foods </h2>
             <p>
