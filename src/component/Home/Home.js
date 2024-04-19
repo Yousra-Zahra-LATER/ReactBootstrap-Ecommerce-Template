@@ -4,6 +4,8 @@ import SectionNumber from './SectionNumber'
 import About from './About'
 import DarkVariantExample from './Carsousels'
 import Barre from './Barre'
+import FAQ from './FAQ'
+import Reviews from './Reviews'
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
      <Header/>
      <SectionNumber/> 
      <About/>
+     <Reviews/>
+     <FAQ/>
      <Barre/>
      </Fragment>
   )
