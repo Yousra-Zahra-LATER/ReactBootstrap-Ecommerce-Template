@@ -7,7 +7,7 @@ export default function SlideWithPoints() {
          <h1 style={{ color: 'white' }} >Testimonials</h1>
         
       <Row className='justify-content-center'>
-        <Col md={12} style={{ width: '85%' }} >
+        <Col md={9}  >
           <Carousel indicators >
             <Carousel.Item >
               <div style={{ margin: '70px' }}> </div>
