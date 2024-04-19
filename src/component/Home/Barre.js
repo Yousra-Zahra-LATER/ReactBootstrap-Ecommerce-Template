@@ -3,8 +3,8 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 function Barre() {
   return (
-    <section>
-      <Container>
+   
+      <Container >
       <Row className="justify-content-center">
   <Col md={6} >
     <h1 style={{ color: '#7c0f41', fontFamily: 'Poppins', fontSize: 29 }} className="mb-4">
@@ -45,7 +45,7 @@ function Barre() {
     
    
       </Container>
-    </section>
+ 
   );
 }
 

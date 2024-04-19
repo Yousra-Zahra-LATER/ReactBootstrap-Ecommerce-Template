@@ -5,7 +5,7 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
-      <Container>
+      <Container fluid="md">
         <Row>
           <Col md={6}>
             <h2>Good food choices are good investments.</h2>
