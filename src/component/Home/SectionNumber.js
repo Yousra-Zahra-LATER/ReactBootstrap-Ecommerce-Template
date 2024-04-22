@@ -6,8 +6,8 @@ import './SectionNumber.css';
 export default function () {
   return (
     
-    <Container className="sectionNumber" fluid='true'>
-      <Row >
+    <Container className="sectionNumber" fluid='true' >
+      <Row className=' justify-content-center'>
         <Col md={3}>
         <h2>1287+</h2>
         <h6>SAVINGS</h6>
