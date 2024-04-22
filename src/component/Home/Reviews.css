@@ -1,0 +1,10 @@
+.carousel-indicators button {
+    background-color: rgb(0, 0, 0) !important;
+  }
+
+
+  .rounded-image {
+    border-radius: 50%; /* Pour rendre l'image ronde */
+    width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+    height: 100px; /* Ajustez la taille de l'image selon vos besoins */
+  }
