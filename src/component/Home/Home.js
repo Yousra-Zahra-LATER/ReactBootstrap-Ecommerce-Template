@@ -1,18 +1,23 @@
 import React, { Fragment } from 'react'
 import Header from './Header'
 import SectionNumber from './SectionNumber'
-import About from './About'
-import DarkVariantExample from './Carsousels'
 import Barre from './Barre'
 import FAQ from './FAQ'
 import Reviews from './Reviews'
-
+import AboutSection from './AboutSection'
+import IngredientsSection from './IngredientSection'
+import ParallaxSection from './ParallaxSection'
+import BlogSection from './BlogSection'
+import "./About.css";
 export default function Home() {
   return (
     <Fragment> 
      <Header/>
      <SectionNumber/> 
-     <About/>
+     <AboutSection/>
+     <IngredientsSection/>
+     <ParallaxSection/>
+     <BlogSection/>
      <Reviews/>
      <FAQ/>
      <Barre/>
