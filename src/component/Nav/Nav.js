@@ -8,14 +8,14 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function NAV() {
     return (
-        <Navbar expand="lg" className="sticky-top shadow " >
+        <Navbar  expand="sm" className="sticky-top shadow " >
           <Container>
             <Navbar.Brand href="#home">
               <img src={infinity} title='logo' alt='logo'/>
               </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" >
-              <Nav className="me-auto">
+            <Nav className="me-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#link">About us</Nav.Link>
                 <Nav.Link href="#home">Explore Foods</Nav.Link>

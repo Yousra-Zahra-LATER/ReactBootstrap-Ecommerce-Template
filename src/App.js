@@ -1,7 +1,8 @@
 
 import './App.css';
 import Footer from './component/Footer/Footer';
-import Barre from './component/Home/Barre';
+import AboutSection from './component/Home/AboutSection';
+import BlogSection from './component/Home/BlogSection';
 import FAQ from './component/Home/FAQ';
 import Home from './component/Home/Home';
 import Reviews from './component/Home/Reviews';
@@ -14,14 +15,14 @@ function App() {
       <div className="App">
         <NAV /> 
         <Home/>
+        <Footer />
         <Routes>
           <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<Home />} />
-          <Route path="/explore" element={<Home />} />
+          <Route path="/about" element={<AboutSection />} />
+          <Route path="/explore" element={<BlogSection />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/FAQ" element={<FAQ />} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );
