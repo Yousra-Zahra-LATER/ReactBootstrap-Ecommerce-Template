@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import beef from '../../assets/beef.jpg';
-import aboutt from '../../assets/aboutt.png';
+
 
 export default function AboutSection() {
   return (
+    <div id="ab-section">
     <section className="about">
       <Container>
         <Row className="justify-content-md-center">
@@ -19,5 +20,6 @@ export default function AboutSection() {
         </Row>
       </Container>
     </section>
+    </div>
   );
 }

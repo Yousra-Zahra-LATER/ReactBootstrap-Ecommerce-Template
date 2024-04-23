@@ -4,6 +4,7 @@ import './Header.css';
 
 export default function Header() {
   return (
+    <div id='head-section'>
     <header>
       <Container fluid="md">
         <Row>
@@ -19,5 +20,6 @@ export default function Header() {
         </Row>
       </Container>
     </header>
+    </div>
   );
 }

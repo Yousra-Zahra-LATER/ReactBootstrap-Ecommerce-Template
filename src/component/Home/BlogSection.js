@@ -10,8 +10,8 @@ export default function BlogSection() {
     return(
    
         <Col md={3} >
-          <div className='box'>
-        <img src={item.img}/>
+        <div className='box'>
+        <img src={item.img} alt='itemimage'/>
         <h5>{item.title}</h5>
         <span>{item.price}</span>
         <h6>{item.time}</h6>
@@ -24,8 +24,7 @@ export default function BlogSection() {
 })
  
   return (
-    <Fragment>
-    
+    <div id="exp-section">
       <section className="blog" >
           <Container >
     
@@ -46,8 +45,8 @@ export default function BlogSection() {
             </Row>
             </Container>
       </section>
+    </div>
 
 
-      </Fragment>
   )
 }

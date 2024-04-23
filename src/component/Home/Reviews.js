@@ -5,6 +5,7 @@ import item from "./../../assets/item.jpg";
 
 export default function Reviews() {
   return (
+    <div id="rev-section">
     <Container style={{ backgroundColor: '#7c0f28', padding: '6rem 0' }} fluid>
          <h1 style={{ color: 'white' }} >Testimonials</h1>
          <div style={{ margin: '70px' }}> </div>
@@ -45,5 +46,6 @@ export default function Reviews() {
            </Col>
       </Row>
     </Container>
+    </div>
   );
 }

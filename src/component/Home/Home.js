@@ -8,7 +8,7 @@ import AboutSection from './AboutSection'
 import IngredientsSection from './IngredientSection'
 import ParallaxSection from './ParallaxSection'
 import BlogSection from './BlogSection'
-import "./About.css";
+
 export default function Home() {
   return (
     <Fragment> 

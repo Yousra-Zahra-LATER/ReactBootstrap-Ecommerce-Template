@@ -16,13 +16,12 @@ export default function NAV() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">About us</Nav.Link>
-                <Nav.Link href="#home">Explore Foods</Nav.Link>
-                <Nav.Link href="#link">Reviews</Nav.Link>
-                <Nav.Link href="#home">FAQ</Nav.Link>
+                <Nav.Link href="#head-section">Home</Nav.Link>
+                <Nav.Link href="#ab-section">About us</Nav.Link>
+                <Nav.Link href="#exp-section">Explore Foods</Nav.Link>
+                <Nav.Link href="#rev-section">Reviews</Nav.Link>
+              <Nav.Link href="#faq-section">FAQ</Nav.Link>
               </Nav>
-
               <Nav>
             <Nav.Link id='phone'> <FontAwesomeIcon icon={faPhone} size="1x" color="#fff"/> {''} 1800 789 123</Nav.Link>
                </Nav>
