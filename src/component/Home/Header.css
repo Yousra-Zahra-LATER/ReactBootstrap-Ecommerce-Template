@@ -6,19 +6,6 @@ header {
     margin-top: 0px;
 }
 
-@media (max-width: 768px) {
-    header {
-        padding: 20% 0; /* Ajustez le padding pour les écrans plus petits */
-    }
-}
-
-@media (max-width: 576px) {
-    header {
-        padding: 30% 0; /* Ajustez le padding pour les écrans encore plus petits */
-    }
-}
-
-
 
 header .row{
     margin : 55px 0px;
