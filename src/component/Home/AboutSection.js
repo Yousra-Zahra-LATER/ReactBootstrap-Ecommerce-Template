@@ -9,10 +9,10 @@ export default function AboutSection() {
     <section className="about">
       <Container>
         <Row className="justify-content-md-center">
-          <Col md={4}>
+          <Col md={4} className='mt-5'>
             <img src={beef} title="about" alt='About' />
           </Col>
-          <Col md={6}>
+          <Col md={6} className='mt-5 '>
             <h2>We pride ourselves on making real food from the best ingredients.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
             <button> <a href="#">Learn More </a> </button>

@@ -5,21 +5,21 @@ import './Header.css';
 export default function Header() {
   return (
     <div id='head-section'>
-    <header>
-      <Container fluid="md">
-        <Row>
-          <Col md={6}>
-            <h2>Good food choices are good investments.</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-            </p>
-            <button> Order Now</button>
-            <button>Learn More</button>
-          </Col>
-          
-        </Row>
-      </Container>
-    </header>
+      <header>
+        <Container fluid="md">
+          <Row>
+            <Col md={6} >
+              <h2>Good food choices are good investments.</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+              </p>
+              <button>Order Now</button>
+              <button>Learn More</button>
+            </Col>
+           
+          </Row>
+        </Container>
+      </header>
     </div>
   );
 }

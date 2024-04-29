@@ -12,7 +12,7 @@ const Data=[
 
 {
     img : blog2,
-    title:"Vegetarian Burger",
+    title:"Fraisier",
     time: '30 - 45 Minutes',
     price:'9.20$'
 

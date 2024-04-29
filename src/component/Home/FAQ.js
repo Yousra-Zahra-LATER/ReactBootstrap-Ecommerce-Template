@@ -28,9 +28,8 @@ export default function FAQ() {
       <h4 style={{ fontSize: '18px', letterSpacing: '0.2px',color:'#7c0f21'  ,textAlign:"left"}}><span style={{ fontSize: '25px', color:'black'}}>~</span> When are you opening a shop near me?</h4>
         <p  style={{textAlign:"left"}} >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
       </Col> 
+      <div style={{ margin: '70px' }}> </div>
       </Row>
-          
-      <div style={{ margin: '140px' }}> </div>
         </Container>
  </div>
       );
