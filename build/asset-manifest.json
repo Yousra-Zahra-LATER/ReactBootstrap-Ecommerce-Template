@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactBootstrap-ecommerce-template/static/css/main.a84a650b.css",
+    "main.js": "/reactBootstrap-ecommerce-template/static/js/main.c72806e7.js",
+    "static/js/453.63850818.chunk.js": "/reactBootstrap-ecommerce-template/static/js/453.63850818.chunk.js",
+    "static/media/header1.jpg": "/reactBootstrap-ecommerce-template/static/media/header1.f75711bdad87ba483e47.jpg",
+    "static/media/header.jpg": "/reactBootstrap-ecommerce-template/static/media/header.4d364a55a9b6a602b073.jpg",
+    "static/media/1.jpg": "/reactBootstrap-ecommerce-template/static/media/1.7f40725750e3ccc53b08.jpg",
+    "static/media/2.jpg": "/reactBootstrap-ecommerce-template/static/media/2.2bea8aaece34e17889bf.jpg",
+    "static/media/beef.jpg": "/reactBootstrap-ecommerce-template/static/media/beef.9e9cd2a7f30ccbd1c443.jpg",
+    "static/media/item.jpg": "/reactBootstrap-ecommerce-template/static/media/item.3588b14532be76a88a42.jpg",
+    "static/media/aboutt.png": "/reactBootstrap-ecommerce-template/static/media/aboutt.c12d284aa6f642b8d19a.png",
+    "index.html": "/reactBootstrap-ecommerce-template/index.html",
+    "static/media/infinity.svg": "/reactBootstrap-ecommerce-template/static/media/infinity.fb8a4a5f911c7bb3722b3b13bfc952e4.svg",
+    "main.a84a650b.css.map": "/reactBootstrap-ecommerce-template/static/css/main.a84a650b.css.map",
+    "main.c72806e7.js.map": "/reactBootstrap-ecommerce-template/static/js/main.c72806e7.js.map",
+    "453.63850818.chunk.js.map": "/reactBootstrap-ecommerce-template/static/js/453.63850818.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a84a650b.css",
+    "static/js/main.c72806e7.js"
+  ]
+}
