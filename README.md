@@ -1,8 +1,9 @@
 Live Demo https://yousra-zahra-later.github.io/reactBootstrap-ecommerce-template/
 
-## Available Scripts
 
-In the project directory, you can run:
+
+git clone [[https://github.com/yasharma/reactstrap-card-accordion.git](https://github.com/Yousra-Zahra-LATER/reactBootstrap-ecommerce-template.git)](https://github.com/Yousra-Zahra-LATER/reactBootstrap-ecommerce-template.git)
+cd reactstrap-card-accordion
 
 ### `npm start`
 
