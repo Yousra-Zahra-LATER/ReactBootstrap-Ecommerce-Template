@@ -18,7 +18,7 @@ A code editor such as `Visual Studio Code`
 2- Open a terminal window \
 3- You will need to install node package manager on your system. You can do this by running the following commands in your terminal: \
 `npm install` \
-5-After run this command : `npm start` \
+5-After run this command : `npm start` 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
