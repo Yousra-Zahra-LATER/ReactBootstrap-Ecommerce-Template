@@ -4,6 +4,9 @@
 ### Live Demo :
 https://yousra-zahra-later.github.io/reactBootstrap-ecommerce-template/
 
+
+![Capture d'écran 2024-04-30 154448](https://github.com/Yousra-Zahra-LATER/reactBootstrap-ecommerce-template/assets/138157165/d998a6f9-7078-491c-aa86-d89c6bf58248)
+
 ## Prerequisites
 Before starting this tutorial, make sure you have the following installed on your system:
 
